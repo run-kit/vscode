@@ -1,2 +1,1 @@
-# vscode
-vscode 使用
+# VSCode

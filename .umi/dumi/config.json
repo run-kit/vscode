@@ -1,0 +1,64 @@
+{
+  "menus": {
+    "zh-CN": {
+      "*": [
+        {
+          "path": "/",
+          "title": "Index",
+          "meta": {}
+        }
+      ],
+      "/extension": [
+        {
+          "path": "/extension",
+          "title": "扩展",
+          "meta": {
+            "order": 1
+          }
+        }
+      ],
+      "/usage": [
+        {
+          "path": "/usage",
+          "title": "使用",
+          "meta": {
+            "order": 2
+          }
+        },
+        {
+          "path": "/usage/debugger-js",
+          "title": "调试 JavaScript 代码",
+          "meta": {
+            "order": 2
+          }
+        }
+      ]
+    }
+  },
+  "locales": [
+    {
+      "name": "zh-CN",
+      "label": "中文"
+    }
+  ],
+  "navs": {
+    "zh-CN": [
+      {
+        "title": "使用",
+        "path": "/usage"
+      },
+      {
+        "title": "扩展",
+        "path": "/extension"
+      }
+    ]
+  },
+  "title": "VS Code",
+  "logo": "/vscode/images/logo.png",
+  "mode": "site",
+  "repository": {
+    "url": "",
+    "branch": "master"
+  },
+  "theme": {}
+}
